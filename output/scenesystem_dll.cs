@@ -1,19 +1,11 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 00:49:54.651188600 UTC
+// 2025-10-15 07:48:03.806872 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: scenesystem.dll
     // Class count: 9
-    // Enum count: 1
+    // Enum count: 3
     public static class ScenesystemDll {
-        // Alignment: 1
-        // Member count: 4
-        public enum DisableShadows_t : byte {
-            kDisableShadows_None = 0x0,
-            kDisableShadows_All = 0x1,
-            kDisableShadows_Baked = 0x2,
-            kDisableShadows_Realtime = 0x3
-        }
         // Parent: None
         // Field count: 10
         //
@@ -49,7 +41,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nViewId = 0x0; // uint64
             public const nint m_ViewName = 0x8; // CUtlString
         }
-        // Parent: CSSDSMsg_LayerBase
+        // Parent: None
         // Field count: 0
         //
         // Metadata:
@@ -57,19 +49,18 @@ namespace CS2Dumper.Schemas {
         public static class CSSDSMsg_PostLayer {
         }
         // Parent: None
-        // Field count: 6
+        // Field count: 5
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CSSDSMsg_LayerBase {
             public const nint m_viewId = 0x0; // SceneViewId_t
             public const nint m_ViewName = 0x10; // CUtlString
-            public const nint m_nLayerIndex = 0x18; // int32
-            public const nint m_nLayerId = 0x20; // uint64
-            public const nint m_LayerName = 0x28; // CUtlString
-            public const nint m_displayText = 0x30; // CUtlString
+            public const nint m_nLayerId = 0x18; // uint64
+            public const nint m_LayerName = 0x20; // CUtlString
+            public const nint m_displayText = 0x28; // CUtlString
         }
-        // Parent: CSSDSMsg_LayerBase
+        // Parent: None
         // Field count: 0
         //
         // Metadata:

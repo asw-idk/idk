@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 00:49:54.651188600 UTC
+// 2025-10-15 07:48:03.806872 UTC
 
 #pragma once
 
@@ -9,27 +9,8 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: resourcesystem.dll
         // Class count: 59
-        // Enum count: 2
+        // Enum count: 0
         namespace resourcesystem_dll {
-            // Alignment: 1
-            // Member count: 9
-            enum class FuseVariableType_t : uint8_t {
-                INVALID = 0x0,
-                BOOL = 0x1,
-                INT8 = 0x2,
-                INT16 = 0x3,
-                INT32 = 0x4,
-                UINT8 = 0x5,
-                UINT16 = 0x6,
-                UINT32 = 0x7,
-                FLOAT32 = 0x8
-            };
-            // Alignment: 1
-            // Member count: 2
-            enum class FuseVariableAccess_t : uint8_t {
-                WRITABLE = 0x0,
-                READ_ONLY = 0x1
-            };
             // Parent: None
             // Field count: 0
             //
@@ -57,13 +38,6 @@ namespace cs2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             namespace InfoForResourceTypeCMorphSetData {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            namespace InfoForResourceTypeCChoreoSceneFileData {
             }
             // Parent: None
             // Field count: 0
@@ -156,14 +130,6 @@ namespace cs2_dumper {
             namespace InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace TestResource_t {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-            }
-            // Parent: None
             // Field count: 0
             //
             // Metadata:
@@ -190,6 +156,13 @@ namespace cs2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             namespace InfoForResourceTypeProceduralTestResource_t {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
+            namespace InfoForResourceTypeCChoreoSceneFileList {
             }
             // Parent: None
             // Field count: 2
@@ -251,6 +224,13 @@ namespace cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
+            namespace InfoForResourceTypeCChoreoSceneResource {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
             namespace InfoForResourceTypeCNmSkeleton {
             }
             // Parent: None
@@ -258,7 +238,7 @@ namespace cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            namespace InfoForResourceTypeTestResource_t {
+            namespace InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
             // Field count: 0
@@ -300,7 +280,7 @@ namespace cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            namespace InfoForResourceTypeCNmGraphVariation {
+            namespace InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
             // Field count: 0

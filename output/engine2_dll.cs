@@ -1,43 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 00:49:54.651188600 UTC
+// 2025-10-15 07:48:03.806872 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
     // Class count: 48
-    // Enum count: 4
+    // Enum count: 1
     public static class Engine2Dll {
-        // Alignment: 4
-        // Member count: 3
-        public enum EntityDormancyType_t : uint {
-            ENTITY_NOT_DORMANT = 0x0,
-            ENTITY_DORMANT = 0x1,
-            ENTITY_SUSPENDED = 0x2
-        }
-        // Alignment: 4
-        // Member count: 4
-        public enum EntityIOTargetType_t : uint {
-            ENTITY_IO_TARGET_INVALID = unchecked((uint)-1),
-            ENTITY_IO_TARGET_ENTITYNAME = 0x2,
-            ENTITY_IO_TARGET_EHANDLE = 0x6,
-            ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
-        }
-        // Alignment: 4
-        // Member count: 3
-        public enum SpawnDebugOverrideState_t : uint {
-            SPAWN_DEBUG_OVERRIDE_NONE = 0x0,
-            SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED = 0x1,
-            SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED = 0x2
-        }
-        // Alignment: 4
-        // Member count: 5
-        public enum SpawnDebugRestrictionOverrideState_t : uint {
-            SPAWN_DEBUG_RESTRICT_NONE = 0x0,
-            SPAWN_DEBUG_RESTRICT_IGNORE_MANAGER_DISTANCE_REQS = 0x1,
-            SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_DISTANCE_LOS_REQS = 0x2,
-            SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_COOLDOWN_LIMITS = 0x4,
-            SPAWN_DEBUG_RESTRICT_IGNORE_TARGET_COOLDOWN_LIMITS = 0x8
-        }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventClientPostSimulate_t {
         }
@@ -48,7 +17,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flRealTime = 0x28; // float32
             public const nint m_flFrameTime = 0x2C; // float32
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 4
         public static class EventPostAdvanceTick_t {
             public const nint m_nCurrentTick = 0x30; // int32
@@ -75,7 +44,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flRenderFrameTimeUnbounded = 0x30; // float32
             public const nint m_bRenderOnly = 0x34; // bool
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventServerPostSimulate_t {
         }
@@ -96,7 +65,7 @@ namespace CS2Dumper.Schemas {
         // Field count: 0
         public static class EventServerEndAsyncPostTickWork_t {
         }
-        // Parent: EventAdvanceTick_t
+        // Parent: None
         // Field count: 0
         public static class EventClientAdvanceTick_t {
         }
@@ -109,7 +78,7 @@ namespace CS2Dumper.Schemas {
         public static class CNetworkVarChainer {
             public const nint m_PathIndex = 0x20; // ChangeAccessorFieldPathIndex_t
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventClientSimulate_t {
         }
@@ -155,11 +124,11 @@ namespace CS2Dumper.Schemas {
         public static class EventAppShutdown_t {
             public const nint m_nDummy0 = 0x0; // int32
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventServerSimulate_t {
         }
-        // Parent: EventPostAdvanceTick_t
+        // Parent: None
         // Field count: 0
         public static class EventServerPostAdvanceTick_t {
         }
@@ -173,11 +142,11 @@ namespace CS2Dumper.Schemas {
         public static class EventPostDataUpdate_t {
             public const nint m_nCount = 0x0; // int32
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventClientPreSimulate_t {
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventClientPauseSimulate_t {
         }
@@ -186,7 +155,7 @@ namespace CS2Dumper.Schemas {
         public static class EventClientProcessNetworking_t {
             public const nint m_nTickCount = 0x0; // int32
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 4
         public static class EventAdvanceTick_t {
             public const nint m_nCurrentTick = 0x30; // int32
@@ -198,7 +167,7 @@ namespace CS2Dumper.Schemas {
         // Field count: 0
         public static class EventSplitScreenStateChanged_t {
         }
-        // Parent: EventPostAdvanceTick_t
+        // Parent: None
         // Field count: 0
         public static class EventClientPostAdvanceTick_t {
         }
@@ -228,7 +197,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFrameTime = 0x2C; // float32
             public const nint m_bScheduleSendTickPacket = 0x30; // bool
         }
-        // Parent: EventAdvanceTick_t
+        // Parent: None
         // Field count: 0
         public static class EventServerAdvanceTick_t {
         }
@@ -259,7 +228,7 @@ namespace CS2Dumper.Schemas {
         // Field count: 0
         public static class EventClientAdvanceNonRenderedFrame_t {
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventServerProcessNetworking_t {
         }
@@ -291,7 +260,7 @@ namespace CS2Dumper.Schemas {
         public static class EventClientPollNetworking_t {
             public const nint m_nTickCount = 0x0; // int32
         }
-        // Parent: EventPostAdvanceTick_t
+        // Parent: None
         // Field count: 0
         public static class EventServerBeginAsyncPostTickWork_t {
         }
@@ -303,7 +272,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flTickInterval = 0x2C; // float32
             public const nint m_flTickStartTime = 0x30; // float64
         }
-        // Parent: EventSimulate_t
+        // Parent: None
         // Field count: 0
         public static class EventServerPollNetworking_t {
         }

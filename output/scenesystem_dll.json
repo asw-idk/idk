@@ -28,11 +28,10 @@
       },
       "CSSDSMsg_LayerBase": {
         "fields": {
-          "m_LayerName": 40,
+          "m_LayerName": 32,
           "m_ViewName": 16,
-          "m_displayText": 48,
-          "m_nLayerId": 32,
-          "m_nLayerIndex": 24,
+          "m_displayText": 40,
+          "m_nLayerId": 24,
           "m_viewId": 0
         },
         "metadata": [
@@ -51,7 +50,7 @@
             "type": "Unknown"
           }
         ],
-        "parent": "CSSDSMsg_LayerBase"
+        "parent": null
       },
       "CSSDSMsg_PreLayer": {
         "fields": {},
@@ -61,7 +60,7 @@
             "type": "Unknown"
           }
         ],
-        "parent": "CSSDSMsg_LayerBase"
+        "parent": null
       },
       "CSSDSMsg_ViewRender": {
         "fields": {
@@ -126,15 +125,26 @@
       }
     },
     "enums": {
-      "DisableShadows_t": {
-        "alignment": 1,
+      "CEntityIdentity": {
+        "alignment": 0,
         "members": {
-          "kDisableShadows_All": 1,
-          "kDisableShadows_Baked": 2,
-          "kDisableShadows_None": 0,
-          "kDisableShadows_Realtime": 3
+          "": 0
         },
-        "type": "uint8"
+        "type": "unknown"
+      },
+      "CEntityInstance": {
+        "alignment": 0,
+        "members": {
+          "": 0
+        },
+        "type": "unknown"
+      },
+      "CScriptComponent": {
+        "alignment": 0,
+        "members": {
+          "": 0
+        },
+        "type": "unknown"
       }
     }
   }
