@@ -21,7 +21,7 @@
           "m_Value": 24
         },
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "CNetworkVarChainer": {
         "fields": {
@@ -348,11 +348,9 @@
       }
     },
     "enums": {
-      "_I____": {
-        "alignment": 100,
-        "members": {
-          "": 0
-        },
+      "_____________": {
+        "alignment": 0,
+        "members": {},
         "type": "unknown"
       }
     }
